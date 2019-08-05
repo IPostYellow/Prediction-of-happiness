@@ -32,7 +32,7 @@ Relu
 优化函数 Adam  
 最低loss 9.895  
 结果发现还是没很大变化  
-![imgae](imgaes/3.jpg]  
+![image](images/3.jpg]  
 换个优化模型试试  
 6个主成分  
 两层  
