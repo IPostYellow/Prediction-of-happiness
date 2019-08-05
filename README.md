@@ -108,7 +108,7 @@ Relu
 优化函数 Adagrad  
 最低loss 4.7  
 似乎不行了，再多就出事了  
-![image](iamges/10.jpg)  
+![image](images/10.jpg)  
 此时如果再换一个优化模型呢？  
 8个主成分  
 两层  
