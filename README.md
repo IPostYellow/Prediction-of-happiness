@@ -32,7 +32,7 @@ Relu
 优化函数 Adam  
 最低loss 9.895  
 结果发现还是没很大变化  
-![image](images/3.jpg]  
+![image](images/3.jpg)  
 换个优化模型试试  
 6个主成分  
 两层  
@@ -43,7 +43,7 @@ Relu
 优化函数 Adagrad  
 最低loss 4.7  
 看起来效果好了很多  
-![imgae](images/4.jpg]  
+![image](images/4.jpg)  
 加大训练力度  
 6个主成分  
 两层  
