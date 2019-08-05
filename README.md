@@ -5,7 +5,7 @@
 6个主成分  
 两层神经网络：  
 6\*16\*1  
-Relu  
+Relu函数  
 1200epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adam  
@@ -16,7 +16,7 @@ Relu
 6个主成分  
 两层神经网络：  
 6\*16\*1   
-Relu  
+Relu函数  
 1600epoch，每批量40  
 损失函数mean_squared_error  
 优化函数 Adam  
@@ -27,7 +27,7 @@ Relu
 8个主成分  
 两层神经网络：  
 8\*16\*1   
-Relu  
+Relu函数  
 1200epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adam  
@@ -38,7 +38,7 @@ Relu
 6个主成分  
 两层神经网络：  
 6\*16\*1   
-Relu  
+Relu函数  
 1200epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adagrad  
@@ -49,7 +49,7 @@ Relu
 6个主成分  
 两层神经网络：  
 6\*16\*1   
-Relu  
+Relu函数  
 1600epoch，每批量40  
 损失函数mean_squared_error  
 优化函数 Adagrad  
@@ -60,7 +60,7 @@ Relu
 6个主成分  
 两层神经网络：  
 6\*16\*1   
-Relu  
+Relu函数  
 1400epoch，每批量40  
 损失函数mean_squared_error  
 优化函数 Adagrad  
@@ -71,7 +71,7 @@ Relu
 8个主成分  
 两层神经网络：  
 8\*16\*1   
-Relu  
+Relu函数  
 1200epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adagrad  
@@ -82,7 +82,7 @@ Relu
 8个主成分  
 两层神经网络：  
 8\*16\*1   
-Relu  
+Relu函数  
 1400epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adagrad  
@@ -112,9 +112,9 @@ Relu函数
 ![image](images/10.jpg)  
 此时如果再换一个优化模型呢？  
 8个主成分  
-两层  
-8*16*1  
-Relu  
+两层神经网络：  
+8\*16\*1  
+Relu函数  
 1600epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adadelta  
