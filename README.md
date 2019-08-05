@@ -20,7 +20,7 @@ Relu
 损失函数mean_squared_error  
 优化函数 Adam  
 最低loss 10.73  
-发现还是不行
+发现还是不行  
 ![image](images/2.jpg)  
 难道是成分选少了吗，增加两个主成分试试  
 8个主成分  
@@ -65,7 +65,7 @@ Relu
 优化函数 Adagrad  
 最低loss 4.0  
 还可以  
-![image](imagees/6.jpg)  
+![image](images/6.jpg)  
 增加主成分会不会有所改变呢？  
 8个主成分  
 两层  
