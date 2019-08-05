@@ -3,8 +3,8 @@
 对其代码做局部修改并进行参数调试  
   
 6个主成分  
-两层  
-6*16*1  
+两层神经网络：  
+6\*16\*1  
 Relu  
 1200epoch，每批量20  
 损失函数mean_squared_error  
@@ -14,8 +14,8 @@ Relu
 ![image](images/1.jpg)  
 下面增加epoch大小试试  
 6个主成分  
-两层  
-6*16*1  
+两层神经网络：  
+6\*16\*1   
 Relu  
 1600epoch，每批量40  
 损失函数mean_squared_error  
@@ -25,8 +25,8 @@ Relu
 ![image](images/2.jpg)  
 难道是成分选少了吗，增加两个主成分试试  
 8个主成分  
-两层  
-8*16*1  
+两层神经网络：  
+8\*16\*1   
 Relu  
 1200epoch，每批量20  
 损失函数mean_squared_error  
@@ -36,8 +36,8 @@ Relu
 ![image](images/3.jpg)  
 换个优化模型试试  
 6个主成分  
-两层  
-6*16*1  
+两层神经网络：  
+6\*16\*1   
 Relu  
 1200epoch，每批量20  
 损失函数mean_squared_error  
@@ -47,8 +47,8 @@ Relu
 ![image](images/4.jpg)  
 加大训练力度  
 6个主成分  
-两层  
-6*16*1  
+两层神经网络：  
+6\*16\*1   
 Relu  
 1600epoch，每批量40  
 损失函数mean_squared_error  
@@ -58,8 +58,8 @@ Relu
 ![imgae](images/5.jpg)  
 小步小步地增加训练epoch  
 6个主成分  
-两层  
-6*16*1  
+两层神经网络：  
+6\*16\*1   
 Relu  
 1400epoch，每批量40  
 损失函数mean_squared_error  
@@ -69,8 +69,8 @@ Relu
 ![image](images/6.jpg)  
 增加主成分会不会有所改变呢？  
 8个主成分  
-两层  
-8*16*1  
+两层神经网络：  
+8\*16\*1   
 Relu  
 1200epoch，每批量20  
 损失函数mean_squared_error  
@@ -80,8 +80,8 @@ Relu
 ![image](images/7.jpg)  
 加大epoch  
 8个主成分  
-两层  
-8*16*1  
+两层神经网络：  
+8\*16\*1   
 Relu  
 1400epoch，每批量20  
 损失函数mean_squared_error  
@@ -91,9 +91,9 @@ Relu
 ![image](images/8.jpg)  
 加大力度不要停  
 8个主成分  
-两层  
-8*16*1  
-Relu  
+两层神经网络：  
+8\*16\*1  
+Relu函数  
 1600epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adagrad  
@@ -101,9 +101,9 @@ Relu
 ![image](images/9.jpg)  
 再加大试试  
 8个主成分  
-两层  
-8*16*1  
-Relu  
+两层神经网络：    
+8\*16\*1   
+Relu函数    
 1800epoch，每批量20  
 损失函数mean_squared_error  
 优化函数 Adagrad  
